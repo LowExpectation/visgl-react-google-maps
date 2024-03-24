@@ -1,0 +1,85 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  font-size: 16px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+div[aria-label="Map"] div[role="dialog"] {
+  color: black;
+}
+
+h1 {
+  padding: 0.25rem 0px;
+  font-size: 1.5rem;
+}
+
+h2 {
+  padding: 0.25rem 0px;
+  font-size: 1.25rem;
+}
+
+p {
+  font-size: 0.8rem;
+  padding: 0px;
+  padding-bottom: 0.25rem;
+  margin: 0px;
+}
+
+.directions {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 1.25rem;
+  padding-top: 0px;
+  margin: 0.25rem;
+  color: white;
+  background-color: #2d3748;
+  border-radius: 0.25rem;
+}
+
+ul {
+  padding: 0px;
+  padding-left: 1.5rem;
+  margin: 0px;
+}
+
+li button {
+  color: #f6e05e;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.places{
+  font-size: 16px;
+  font-size: max(16px, 1em);
+  font-family: inherit;
+  padding: 0.25em 0.5em;
+  border: 2px solid var(--input-border);
+  border-radius: 4px;
+  align-items: center;
+}
