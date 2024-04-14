@@ -1,13 +1,18 @@
 import Image from "next/image";
-import simpleMap from "../public/images/simpleMap.png";
-import markerCluster from "../public/images/markerCluster.png";
-import directions from "../public/images/directions.png";
-import advancedMarkers from "../public/images/advancedMarkers.png";
-import geocoding from "../public/images/geolocation.png";
-import places from "../public/images/places.png"
+
 export default function Home() {
+  const simpleMap = "/images/simpleMap.png";
+  const markerCluster = "/images/markerCluster.png";
+  const directions = "/images/directions.png";
+  const advancedMarkers = "/images/advancedMarkers.png";
+  const geocoding = "/images/geolocation.png";
+  const places = "/images/places.png";
+  const mapBounds = "/images/mapBounds.png";
+
+  // We list the different pages that are to be used along with a screen shot incase user does not have a key
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
+      <title>vis.gl Google Maps</title>
       <ul>
         <li>
           <a href="/simple-map">Simple Map with simple marker</a>
@@ -67,12 +72,18 @@ export default function Home() {
           ></Image>
         </p>
         <li>
-          <a href="/places"> places library</a>
+          <a href="/places"> Places library</a>
+        </li>
+        <p>
+          <Image src={places} alt="Places" height={300} width={400}></Image>
+        </p>
+        <li>
+          <a href="/map-bounds"> Map Viewport</a>
         </li>
         <p>
           <Image
-            src={places}
-            alt="Places"
+            src={mapBounds}
+            alt="Map Bounds"
             height={300}
             width={400}
           ></Image>

@@ -44,10 +44,10 @@ h2 {
 }
 
 p {
-  font-size: 0.8rem;
-  padding: 0px;
-  padding-bottom: 0.25rem;
-  margin: 0px;
+  font-size: 2rem;
+  margin: 1px;
+  padding-top: 5px;
+  padding-bottom: 15px;
 }
 
 .directions {
@@ -82,4 +82,9 @@ li button {
   border: 2px solid var(--input-border);
   border-radius: 4px;
   align-items: center;
+}
+
+li{
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
