@@ -1,4 +1,24 @@
-# Getting Started
+# GOOGLE MAPS
+
+Hello and welcome, we will be exploring some functionality of the google maps library for react.
+
+## Setup
+
+The short answer is to use `npm install '@vis.gl/react-google-maps'` (single quotes needed for powershell).
+
+The long answer is to read the official documentation regarding the installation and usage on the [visgl webpage](https://visgl.github.io/react-google-maps/docs/get-started).
+
+These pages will not have an `API Key` provided as Google has locked them behind a paywall of sorts. If you want to test, make sure to create an [environment file](https://nextjs.org/docs/pages/building-your-application/configuring/environment-variables) or you will end up with a warning of invalid key upon running the pages.
+
+## Examples
+
+Examples can be found on the official Github as well at [visgl GitHub](https://github.com/visgl/react-google-maps).
+
+Other coding examples I used as reference are from [Leigh Halliday](https://github.com/leighhalliday) - Thanks buddy for helping me get off the ground with this 😇.
+
+We will be creating a couple of map pages to show off some of the common usages of this library. Topics will include a simple map, placing markers, creating clusters, and calling secondary librarys ( places, geolocation, routes, viewports ).
+
+## Getting Started
 
 First, run the development server:
 
@@ -32,21 +52,3 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-
-## GOOGLE MAPS
-
-Hello and welcome, we will be exploring some functionality of the google maps library for react.
-
-## Setup
-
-The short answer is to use `npm install '@vis.gl/react-google-maps'` (single quotes needed for powershell).
-
-The long answer is to read the official documentation regarding the installation and usage on the [visgl webpage](https://visgl.github.io/react-google-maps/docs/get-started).
-
-## Examples
-
-Examples can be found on the official Github as well at [visgl GitHub](https://github.com/visgl/react-google-maps).
-
-Other coding examples I used as reference are from [Leigh Halliday](https://github.com/leighhalliday) - Thanks buddy for helping me get off the ground with this 😇.
-
-We will be creating a couple of map pages to show off some of the common usages of this library. Topics will include a simple map, placing markers, creating clusters, and calling secondary librarys ( places, geolocation, routes ).
